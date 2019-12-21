@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HistoryActivity"
+    android:orientation="vertical"
+    android:background="@color/layout_backgrand">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/back"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="返回"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/layout_backgrand"></TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:background="@color/layout_backgrand"></TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/tv_popup_menu"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text=""
+            android:longClickable="true"
+            android:gravity="center"
+            android:background="@color/layout_backgrand"
+            />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/SplashImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="泉州经贸职业技术学院至今已有48年的办学历史。
+1964年秋，晋江地区商业学校成立，首开财会等财经和商贸相关专业，成为泉州地区最早的财经商贸人才培养摇篮。1985年地改市，学校改名为泉州商业学校。有校歌《泉州商校之歌》，歌词中有“勤奋、严谨、求实、创新”类似校训的提法。
+1979年，晋江地区供销学校创办。1985年地改市，学校改名为泉州供销学校。有校歌《泉州供销学校校歌》，歌词中有“团结、勤奋、求实、进取”类似校训的提法。
+2001年12月，泉州商业学校和泉州供销学校合并，成立泉州商贸学校。
+2004年2月，经福建省人民政府批准，泉州商贸学校升格为泉州经贸职业技术学院。有校训：“明德强技铸人铸魂”。
+2009年9月，泉州慈山财经学校并入泉州经贸职业技术学院，成为泉州经贸职业技术学院慈山分院。有校训：“慈毅明道”。
+2011年4月6日至30日，泉州经贸职业技术学院在网上公开征集新校训，并成立校标、校训、校歌评选领导小组，对征集到的校训作品组织评审修订。2012年3月29日，校标、校训、校歌评选领导小组审订结果上报校党委会研究，确定新校训：明德善学强技力行。 "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+</LinearLayout>

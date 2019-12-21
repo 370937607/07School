@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VedioActivity"
+    android:background="@color/layout_backgrand"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/back_weizhi"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="返回"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/layout_backgrand"></TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:background="@color/layout_backgrand"></TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/tv_popup_menu"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text=""
+            android:longClickable="true"
+            android:gravity="center"
+            android:background="@color/layout_backgrand"
+            />
+    </LinearLayout>
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <TextView
+        android:padding="60dp"
+        android:textSize="20dp"
+        android:text="泉州经贸职业技术学院，是经福建省人民政府批准、泉州市人民政府举办的公办全日制普通高等职业技术学院。地处全国首批历史文化名城、东亚文化之都、海上丝绸之路起点城市、全国著名侨乡—泉州市，背倚著名风景区紫帽山，校园风景秀丽，交通便捷。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

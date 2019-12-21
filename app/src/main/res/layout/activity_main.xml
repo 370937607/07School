@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:background="@color/layout_backgrand"
+    android:padding="5dp">
+
+
+
+    <ImageView
+        android:background="#e16531"
+        android:src="@mipmap/logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></ImageView>
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <RadioGroup
+        android:background="#fee9e0"
+        android:id="@+id/btn_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RadioButton
+            android:id="@+id/btn_school"
+            style="@style/TabMenuSchool"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_menu_weixin"
+            android:text="学院概况" />
+        <RadioButton
+            android:id="@+id/btn_student"
+            android:text="招生就业"
+            android:drawableTop="@drawable/tab_menu_me"
+            style="@style/TabMenuSchool"/>
+
+
+    </RadioGroup>
+</LinearLayout>
